@@ -14,7 +14,7 @@ function Decrement() {
 }
 
 function Hidden() {
-    number = 0; // reset number vari to 0;
+    number = 0; // reset number variable to 0;
     document.getElementById("number").innerText = number;
 }
 
