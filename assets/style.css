@@ -1,0 +1,21 @@
+body {
+    background-image: url('./images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.counter-col {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px yellow;
+    padding: 15px;
+}
+
+.counter-row {
+    margin-top: 10% !important;
+}
+
+.header {
+    padding: 10px 5px;
+    border-radius: 5px;
+}
