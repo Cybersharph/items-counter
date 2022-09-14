@@ -9,8 +9,11 @@ function Increment() {
 }
 
 function Decrement() {
-    document.getElementById("number").innerText = number - 1;
-    number--;
+    // if helps to not decrement zeros towards negative
+    if (number > 0) {
+        document.getElementById("number").innerText = number - 1;
+        number--;
+    }
 }
 
 function Hidden() {
