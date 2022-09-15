@@ -24,7 +24,18 @@
                 </div>
                 <div class="col-md-10 d-grid gap-2">
                     <hr>
-                    <a href="#" class="btn btn-warning btn-sm btn-block" id="reset-btn" onclick="Hidden()">Reset</a>
+                    <a href="#" class="btn btn-warning btn-sm btn-block" id="reset-btn" onclick="Reset()">Reset</a>
+                </div>
+                <div class="col-md-10 d-grid gap-2">
+                    <hr>
+                    <a href="#" class="btn btn-primary btn-sm btn-block" id="save-btn" onclick="Save()">Save Counts</a>
+                    <a href="#" class="btn btn-primary btn-sm btn-block" id="clear-btn" onclick="Clear()">Clear History</a>
+                    <hr>
+                    <p id="recent-container">
+                        Last 3 Save history: <br>
+                        <!-- Recent tracks here -->
+                        <span id="recent"></span>
+                    </p>
                 </div>
             </div>
         </div>
